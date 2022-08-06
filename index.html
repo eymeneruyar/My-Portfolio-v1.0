@@ -44,10 +44,10 @@
 
             <nav id="navbar" class="nav-menu navbar">
                 <ul>
-                    <li><a href="" class="nav-link scrollto active"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                    <li><a href="#home" class="nav-link scrollto"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
                     <li><a href="#about" class="nav-link scrollto"><i class="fa-solid fa-user"></i><span>About</span></a></li>
                     <li><a href="#resume" class="nav-link scrollto"><i class="fa-solid fa-file"></i><span>Resume</span></a></li>
-                    <li><a href="#blog" class="nav-link scrollto"><i class="fa-solid fa-blog"></i><span>Blog</span></a></li>
+                    <li><a href="#project" class="nav-link scrollto"><i class="fa-solid fa-diagram-project"></i><span>Project</span></a></li>
                     <li><a href="#contact" class="nav-link scrollto"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
                 </ul>
             </nav>
@@ -292,11 +292,37 @@
             </div>
         </section>
 
-        <section id="blog">
+        <section id="project" class="project section-bg">
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Blog</h2> 
+                    <h2>Projects</h2> 
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nisi porro vel, quam enim quia quisquam odio, odit vero laudantium officiis sit ratione minima consectetur, quidem velit. Facilis id cumque quia, enim, explicabo velit sunt ratione repellat excepturi exercitationem quas, qui neque nostrum eaque possimus maxime aliquid autem vitae quasi.</p>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 filter">
+                      <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-backend">Backend</li>
+                        <li data-filter=".filter-frontend">Frontend</li>
+                        <li data-filter=".filter-mobile">Mobile</li>
+                      </ul>
+                    </div>
+                </div>
+
+                <div class="row project-container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 project-item filter-backend">
+                        <div class="project-wrap">
+                            <img src="./app-assets/images/projects/vet-clinic.jpeg" alt="">
+                            <div class="project-links">
+                                <a href="./app-assets/images/projects/vet-clinic.jpeg" class="project-lightbox" title=""><i class="fa-solid fa-plus"></i></a>
+                                <a href="https://github.com/eymeneruyar/Java-SpringMVC-VetClinic-Project" title="More Details"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 
             </div>
@@ -310,14 +336,36 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-7 d-flex align-items-stretch">
                         <div class="card-mail">
                             <div class="card-mail-body">
-
+                                <form action="">
+                                    <div class="row">
+                                        <div class="inputBox col-6">
+                                            <input type="text" required>
+                                            <span>Your Name</span>
+                                        </div>
+                                        <div class="inputBox col-6">
+                                            <input type="email" required>
+                                            <span>Your Email</span>
+                                        </div>
+                                        <div class="inputBox">
+                                            <input type="text" required>
+                                            <span>Subject</span>
+                                        </div>
+                                        <div class="inputBox col-12">
+                                            <textarea name="message" cols="30" rows="10" required></textarea>
+                                            <span>Message</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact-button-area">
+                                        <button type="submit">Send Message</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-5 d-flex align-items-stretch">
                         <div class="card-contact">
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
@@ -334,8 +382,7 @@
                                 <h4>Call:</h4>
                                 <p>+90 554 839 8073</p>
                             </div>
-                            <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNwwmZ0K2yhQRVfo3U7qkbrQ&key=..."></iframe>
-                        </div>
+                        <iframe style="border:0; width: 100%; height: 290px;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=40.30646292127671,%2036.55406060968311+(My%20Business%20)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
                     </div>
                 </div>
                 
